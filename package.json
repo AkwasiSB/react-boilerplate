@@ -7,5 +7,14 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "AkwasiSB",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AkwasiSB/react-boilerplate.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/AkwasiSB/react-boilerplate/issues"
+  },
+  "homepage": "https://github.com/AkwasiSB/react-boilerplate#readme"
 }
