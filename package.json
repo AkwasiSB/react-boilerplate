@@ -1,26 +1,60 @@
 {
-  "name": "react-boilerplate",
-  "version": "0.1.0",
-  "description": "",
-  "main": "index.js",
+  "name": "portfolio-website",
+  "version": "1.0.0",
+  "description": "Akwasi Sefa-Boakye's frontend developer portfolio",
+  "private": true,
   "scripts": {
-    "build-dev": "webpack --mode development",
-    "build-prod": "webpack --mode production",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack-dev-server --env.development",
+    "build-dev": "webpack --watch --env.development",
+    "build-prod": "webpack --env.production",
+    "test": "jest --watch",
+    "test:coverage": "jest --coverage"
   },
   "author": "AkwasiSB",
   "license": "ISC",
+  "dependencies": {
+    "prop-types": "^15.6.2",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "clean-webpack-plugin": "^1.0.1",
+    "css-loader": "^2.1.0",
+    "enzyme": "^3.8.0",
+    "enzyme-adapter-react-16": "^1.9.1",
+    "enzyme-to-json": "^3.3.5",
+    "eslint": "^5.13.0",
+    "eslint-loader": "^2.1.2",
+    "eslint-plugin-react": "^7.12.4",
+    "html-webpack-plugin": "^3.2.0",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^24.1.0",
+    "mini-css-extract-plugin": "^0.5.0",
+    "node-sass": "^4.11.0",
+    "postcss-loader": "^3.0.0",
+    "postcss-preset-env": "^6.5.0",
+    "sass-loader": "^7.1.0",
+    "sinon": "^7.2.3",
+    "style-loader": "^0.23.1",
+    "stylelint": "^9.10.1",
+    "stylelint-config-recommended-scss": "^3.2.0",
+    "stylelint-scss": "^3.5.3",
+    "stylelint-webpack-plugin": "^0.10.5",
+    "webpack": "4.29.1",
+    "webpack-cli": "3.2.3",
+    "webpack-dev-server": "3.1.14"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AkwasiSB/react-boilerplate.git"
+    "url": "git+https://github.com/AkwasiSB/portfolio-website.git"
   },
   "keywords": [],
   "bugs": {
-    "url": "https://github.com/AkwasiSB/react-boilerplate/issues"
+    "url": "https://github.com/AkwasiSB/portfolio-website/issues"
   },
-  "homepage": "https://github.com/AkwasiSB/react-boilerplate#readme",
-  "devDependencies": {
-    "webpack": "^4.27.1",
-    "webpack-cli": "^3.1.2"
-  }
+  "homepage": "https://github.com/AkwasiSB/portfolio-website#readme"
 }
