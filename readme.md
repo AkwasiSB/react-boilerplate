@@ -1,3 +1,3 @@
 # React BoilerPlate
 
-Scaffolding of modern tooling system with react
+Scaffolding of React with Modern Tooling System
